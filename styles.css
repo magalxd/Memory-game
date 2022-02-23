@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-image: radial-gradient(#1572a1, #9ad0ec);
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #efdad7;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-image: radial-gradient(#f80808, #440202);
+  opacity: 0.8;
+}
+
+.red {
+  cursor: pointer;
+  background-color: #da1212;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.green {
+  cursor: pointer;
+  background-color: #1bc540;
+  border-top-right-radius: 0;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.blue {
+  cursor: pointer;
+  background-color: #1b0ab4;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 0;
+}
+
+.yellow {
+  cursor: pointer;
+  background-color: #ffc600;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 100%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
